@@ -1,16 +1,19 @@
-# gym_tracker_app
+# GYM TOOLS APP 🏃🏽‍♂️
 
-A new Flutter project.
+Herramientas utiles para la actividad fisica.
+
+- Temporizadores personalizados
+- Rutinas: Crea y guarda tus rutinas de entrenamiento
+- Progreso: Seguimiento de progreso, dias de ejercicio, pesos, distancias, etc.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## Almacenamiento:
 
-A few resources to get you started if this is your first Flutter project:
+Todo el almacenamiento de informacion y persistencia sera de manera local en el dispositivo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencias:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter_riverpod
+- go_router
+-
