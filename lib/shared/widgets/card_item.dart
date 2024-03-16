@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 class CardItem extends StatelessWidget {
   final String title;
   final String subtitle;
-  final Icon icon;
+  final Icon? icon;
   final void Function()? onTap;
 
   const CardItem({
     super.key,
     required this.title,
     required this.subtitle,
-    required this.icon,
+    this.icon,
     this.onTap,
   });
 

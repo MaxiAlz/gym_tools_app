@@ -25,7 +25,7 @@ class HomeScreen extends ConsumerWidget {
                 icon: Icon(isDarkMode ? Icons.dark_mode : Icons.light_mode))
           ],
           title: const Text(
-            'Gym Tracker',
+            'Gym Tools 🏃🏽‍♂️',
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.normal,
@@ -49,7 +49,6 @@ class HomeScreen extends ConsumerWidget {
                   subtitle: item.subtitle,
                   icon: item.icon,
                   onTap: () {
-                    // context.push(item.path);
                     ref.read(appRouterPovider).push(item.path);
                   },
                 ),
