@@ -1,1 +1,1 @@
-export 'package:gym_tracker_app/feactures/timer/widgets/timer-feactures.dart';
+export 'package:gym_tracker_app/feactures/timer/widgets/timer_feactures.dart';
